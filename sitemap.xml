@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pascal-gollin.github.io/publications/2025-12-wheels-dominated-balanced-separators/</loc>
-    <lastmod>2025-12-13T00:00:00+00:00</lastmod>
+    <loc>https://pascal-gollin.github.io/publications/2026-07-cyclespectrumep/</loc>
+    <lastmod>2026-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pascal-gollin.github.io/</loc>
-    <lastmod>2025-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pascal-gollin.github.io/publications/</loc>
+    <lastmod>2026-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/publications/2026-04-p5kellell/</loc>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/publications/2026-04-p6k2t/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/publications/2026-03-minimally-tough/</loc>
+    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/publications/2026-02-agentsitems/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/publications/2025-12-wheels-dominated-balanced-separators/</loc>
     <lastmod>2025-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pascal-gollin.github.io/publications/2025-11-k-roman-graphs/</loc>
@@ -112,6 +127,8 @@
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/abhishek-methuku/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/alexandra-wesolek/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/attila-joo/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/bojan-mohar/</loc>
@@ -119,6 +136,8 @@
     <loc>https://pascal-gollin.github.io/collaborators/bruce-reed/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/bryce-frederickson/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/caleb-mcfarland/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/casey-tompkins/</loc>
   </url><url>
@@ -136,7 +155,11 @@
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/dillon-mayhew/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/ekkehard-kohler/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/freddie-illingworth/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/hans-l-bodlaender/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/hao-huang/</loc>
   </url><url>
@@ -149,6 +172,8 @@
     <loc>https://pascal-gollin.github.io/collaborators/johannes-carmesin/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/joshua-erde/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/julien-codsi/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/jungho-ahn/</loc>
   </url><url>
@@ -166,9 +191,13 @@
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/lara-fernandez/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/laura-ogrin/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/liana-yepremyan/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/marc-distel/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/marek-sokolowski/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/maria-chudnovsky/</loc>
   </url><url>
@@ -177,6 +206,8 @@
     <loc>https://pascal-gollin.github.io/collaborators/matjaz-krnc/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/max-pitz/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/maximilian-gorsky/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/maximilian-teegen/</loc>
   </url><url>
@@ -190,7 +221,13 @@
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/o-joung-kwon/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/ondrej-suchy/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/paul-knappe/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/paul-wollan/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/pawel-rzazewski/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/raphael-steiner/</loc>
   </url><url>
@@ -210,9 +247,17 @@
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/thomas-lesgourgues/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/tomas-hons/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/tomas-masarik/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/tony-huynh/</loc>
   </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/vaclav-blazej/</loc>
+  </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/valeria-leoni/</loc>
+  </url><url>
+    <loc>https://pascal-gollin.github.io/collaborators/varun-sivashankar/</loc>
   </url><url>
     <loc>https://pascal-gollin.github.io/collaborators/wei-hsuan-yu/</loc>
   </url><url>
