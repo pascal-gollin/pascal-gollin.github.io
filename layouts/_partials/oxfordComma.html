@@ -1,0 +1,15 @@
+{{/* Partial: oxfordComma.html */}}
+
+{{- $items := .items -}}
+{{- $len := len $items -}}
+
+{{- if eq $len 0 -}}
+{{- else if eq $len 1 -}}
+  {{- index $items 0 | safeHTML -}}
+{{- else if eq $len 2 -}}
+  {{- printf "%s and %s" (index $items 0) (index $items 1) | safeHTML -}}
+{{- else -}}
+  {{- $allButLast := first (sub $len 1) $items -}}
+  {{- $last := index $items (sub $len 1) -}}
+  {{- printf "%s, and %s" (delimit $allButLast ", ") $last | safeHTML -}}
+{{- end -}}

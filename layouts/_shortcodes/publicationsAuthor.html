@@ -1,0 +1,12 @@
+
+{{- $pubs := (where .Site.RegularPages "Section" "publications") -}}
+{{- $pubs = (partial "filterPublications.html" (dict "pubs" $pubs "coauthor" .Page.Title )) -}}
+
+{{- if $pubs -}}
+    My publications with {{.Page.Params.nameFirst }}:
+
+    {{- partial "publications.html" 
+        (dict "pubs" $pubs "with" "false") -}}
+{{- else -}}
+    I have no publications with {{.Page.Params.nameFirst }}.
+{{- end -}}

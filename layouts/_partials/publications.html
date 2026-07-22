@@ -1,0 +1,14 @@
+{{/* Input: dict with .pubs begin a list of the publication pages */}}
+
+{{- $pubs := .pubs -}}
+{{- $with := .with -}}
+
+<ol>
+  {{- range $pubs -}}
+
+    <li> 
+        {{ partial "publication.html" (dict "pub" . "with" $with) }}
+    </li><br>
+  {{ end }}
+</ol>
+

@@ -1,0 +1,38 @@
+{{/*
+    Partial: coauthors.html
+    Input: 
+    .coauthors - slice of author names
+    .me (optional) - string, author to exclude from display
+    Output:
+    Returns a HTML string like:
+        - If .me given: "with X, Y, and Z"
+        - If .me not given: "X, Y, and Z"
+*/}}
+
+{{- $coauthors := .coauthors -}}
+{{- $me := .me -}}
+
+{{- $prefix := "" -}}
+{{- $coauthorsDisplay := slice -}}
+
+{{- if $me -}}
+  {{- range $coauthors -}}
+    {{- if ne . $me -}}
+      {{- $coauthorsDisplay = $coauthorsDisplay | append (partial "coauthor.html" . | safeHTML) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $coauthorsDisplay -}}
+    {{- $prefix = "with " -}}
+  {{- end -}}
+{{- else -}}
+  {{- range $coauthors -}}
+    {{- $coauthorsDisplay = $coauthorsDisplay | append (partial "coauthor.html" . | safeHTML) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range .coauthors -}}
+{{- end -}}
+
+{{- $result := partial "oxfordComma.html" (dict "items" $coauthorsDisplay) -}}
+
+{{- printf "%s%s" $prefix $result | safeHTML -}}

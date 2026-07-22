@@ -1,0 +1,8 @@
+
+{{- $thesis := (where .Site.RegularPages "Section" "thesis") -}}
+
+<ul>
+    {{- range $thesis -}}
+    <li>{{- partial "publication.html" (dict "pub" . "with" true) -}}</li>
+    {{- end -}}
+</ul>

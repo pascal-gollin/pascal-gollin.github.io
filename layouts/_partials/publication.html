@@ -1,0 +1,43 @@
+{{/* Input: dict 
+    pub - publication page
+    with - style */}}
+
+{{- $p := .pub -}}
+{{- $coauthors := "" -}}
+
+{{- if eq .with true -}}
+    {{- $coauthors = partial "coauthors.html" (dict "coauthors" $p.Params.authors "me" $p.Site.Params.authorName) }}
+{{- else -}}
+    {{- $coauthors = partial "coauthors.html" (dict "coauthors" $p.Params.authors) }}
+{{- end -}}
+
+    <strong>
+        {{- with $p.Params.display_title -}} {{- . | markdownify -}}
+        {{- else -}}{{- $p.Title -}}
+        {{- end -}}
+    </strong><br>
+
+    <small>
+        {{- with $coauthors -}}{{- printf "%s" $coauthors | safeHTML -}}.<br>{{- end -}}
+
+        {{- with $p.Params.journal -}}
+          <em>{{ . }}</em>{{ with $p.Params.volume }}&nbsp;<b>{{ . }}</b>{{ with $p.Params.issue }}({{ . }}){{ end }}{{ end }}{{ with $p.Params.pages }}: {{ . }}, {{ end -}}
+        {{- else }}
+        {{- with $p.Params.note -}}{{ . }}, 
+        {{ else }}Preprint, {{ end -}}{{ end -}}
+        {{- with $p.Params.PublicationDate -}}{{ (time .).Format "January 2006" }} (Preprint date: {{ $p.Date.Format "January 2006" }}).{{ else }}{{ $p.Date.Format "January 2006"}}.{{- end -}}
+        &nbsp;
+        {{- with $p.Params.arxiv }}&nbsp;<a href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener noreferrer"><img src="/images/logo-arxiv.svg" alt="arXiv" class="logo-inline"></a>{{- end -}}
+        {{- with $p.Params.doi }}&nbsp;<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer"><img src="/images/logo-doi.svg" alt="doi" class="logo-inline"></a>{{- end -}}
+        
+        {{if eq $p.Params.conferenceToggle true -}}
+        <br>
+        {{- with $p.Params.conferenceLine}}{{ . }}:<br>{{- end -}}
+        {{- with $p.Params.conferenceProceedings}}<em>{{ . }}</em>{{- end -}}
+        {{- with $p.Params.conferenceProceedingsDetails}}, {{ . | $p.Page.RenderString }}{{- end -}}
+        {{- with $p.Params.conferenceDate}}, {{ (time .).Format "January 2006" }}.{{- end -}}
+        {{- with $p.Params.conferenceDOI }}&nbsp;<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer"><img src="/images/logo-doi.svg" alt="doi" class="logo-inline"></a>{{- end -}}
+        {{- end}}
+
+        {{- with $p.Params.eprint -}}<br><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ . }}</a>{{- end -}}
+    </small>

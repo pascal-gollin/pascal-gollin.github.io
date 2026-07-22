@@ -1,0 +1,33 @@
+
+<center>
+<div class="business-card">
+    <div class="card-image">
+        <img src="images/pascal-face.png" alt="Profile Picture">
+    </div>
+
+    <div class="card-info">
+        <h2 style="text-align: center;">Jochen Pascal Gollin</h2>
+        <p>FAMNIT, University of Primorska<br>
+            Glagoljaška ulica 8<br>
+            6000 Koper, Slovenia</p>
+        <p>Office: II-14, Galeb (Kettejeva ulica 1)</p>
+        <p>Email: <a href="mailto:pascal.gollin@famnit.upr.si">pascal.gollin@famnit.upr.si</a></p>
+        <p><div style="font-size: 24px;"><center>
+            {{- partial "extlink.html" (dict
+                "href" "https://scholar.google.com/citations?user=IltCoeMAAAAJ&hl=en&oi=ao"
+                "content" "<img src=\"/images/logo-googlescholar.svg\" alt=\"Google Scholar\" class=\"logo-inline\">"
+            ) -}}
+            &nbsp;&nbsp;
+            {{- partial "extlink.html" (dict
+                "href" "https://orcid.org/0000-0003-2095-7101"
+                "content" "<img src=\"/images/logo-orcid.svg\" alt=\"OrcID\" class=\"logo-inline\">"
+            ) -}}
+            &nbsp;&nbsp;
+            {{- partial "extlink.html" (dict
+                "href" "https://arxiv.org/a/gollin_j_1.html"
+                "content" "<img src=\"/images/logo-arxiv2.svg\" alt=\"arXiv\" class=\"logo-inline\">"
+            ) -}}
+        </center></div></p>
+    </div>
+</div>
+</center>

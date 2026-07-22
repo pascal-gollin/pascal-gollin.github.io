@@ -1,0 +1,13 @@
+baseURL = 'https://pascal-gollin.github.io/'
+languageCode = 'en-gb'
+title = 'Pascal Gollin'
+
+removePathAccents = true
+
+[params]
+    authorName = 'J. Pascal Gollin'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      subscript = true

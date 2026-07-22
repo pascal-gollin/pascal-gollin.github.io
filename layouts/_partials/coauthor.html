@@ -1,0 +1,12 @@
+{{/* Input: author name (string) */}}
+
+{{- $name := . -}}
+{{- $normalized := replace $name "ł" "l" | replaceRE "[^\\pL\\pN\\s-]" ""  -}}
+{{- $slug := $normalized | urlize -}}
+{{- $page := site.GetPage (printf "/collaborators/%s" $slug) -}}
+
+{{- if and $page $page.Params.website -}}
+  <a href="{{ $page.Params.website }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>
+{{- else -}}
+  {{- $name -}}
+{{- end -}}

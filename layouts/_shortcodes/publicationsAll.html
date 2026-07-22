@@ -1,0 +1,5 @@
+{{- $pubs := (where .Site.RegularPages "Section" "publications") -}}
+{{/*- $pubs = (partial "filterPublications.html" (dict "pubs" $pubs "coauthor" "Karl Heuer" )) -*/}}
+
+{{- partial "publications.html" 
+    (dict "pubs" $pubs "with" true) -}}

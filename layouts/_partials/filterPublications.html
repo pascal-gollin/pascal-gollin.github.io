@@ -1,0 +1,8 @@
+{{- $result := .pubs -}}
+
+{{- with .coauthor }}{{ $result = where $result "Params.authors" "intersect" (slice .) }}{{ end -}}
+{{- with .coauthors }}{{ $result = where $result "Params.authors" "intersect" . }}{{ end -}}
+{{- with .keyword }}{{ $result = where $result "Params.keywords" "intersect" (slice .) }}{{ end -}}
+{{- with .keywords }}{{ $result = where $result "Params.keywords" "intersect"  . }}{{ end -}}
+
+{{- return $result -}}
