@@ -14,7 +14,7 @@ under the supervision of {{< extlink href="https://www.math.uni-hamburg.de/home/
 From 2019 to 2024, I was a research fellow in the 
 {{< extlink href="https://dimag.ibs.re.kr/" >}}Discrete Mathematics Group (DIMAG){{</ extlink >}}, 
 which is part of the Pioneer Research Center for Mathematical and Computational Sciences within the 
-{{< extlink href="https://www.ibs.re.kr/eng.do" >}}Institute for Basic Science (IBS){{</ extlink >}} in South Korea. 
+{{< extlink href="https://www.ibs.re.kr/eng.do" >}}Institute for Basic Science (IBS){{</ extlink >}} in South Korea.. 
 
 ### my publications
 
