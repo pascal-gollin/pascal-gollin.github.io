@@ -12,7 +12,7 @@ authors:
   - Alexandra Wesolek
 date: 2026-04-24
 doi: 
-arXiv: 2605.03965
+arXiv: "2605.03965"
 MR: 
 url: 
 publicationDate: 
@@ -24,9 +24,9 @@ conferenceToggle: true
 conference: ESA 2026
 conferenceLine: Extended abstract to be published in
 conferenceProceedings: 34th Annual European Symposium on Algorithms (ESA 2026)
-conferenceProceedingsDetails: "**388**, Paper No. 75, accepted"
-conferenceDate: 
-conferenceDOI: 
+conferenceProceedingsDetails: "**388**, Paper No. 75"
+conferenceDate: 2026-08-25
+conferenceDOI: 10.4230/LIPIcs.ESA.2026.75
 keywords: 
 ---
 

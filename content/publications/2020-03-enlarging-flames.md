@@ -8,7 +8,7 @@ authors:
   - Attila Joó
 date: 2020-03-13
 doi: 10.1016/j.jctb.2021.06.011
-arXiv: 2003.06178
+arXiv: "2003.06178"
 MR: 4285900
 url: 
 publicationDate: 2022-11-01

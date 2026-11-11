@@ -15,7 +15,7 @@ authors:
   - David R. Wood
 date: 2022-06-06
 doi: 10.1017/S0963548323000457
-arXiv: 2206.02395
+arXiv: "2206.02395"
 MR: 4730906
 url: 
 publicationDate: 2024-05-01

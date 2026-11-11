@@ -10,7 +10,7 @@ authors:
   - Youngho Yoo
 date: 2022-09-20
 doi: 10.1007/s00208-025-03293-5
-arXiv: 2209.09488
+arXiv: "2209.09488"
 MR: 4984349
 url: 
 publicationDate: 2025-10-01

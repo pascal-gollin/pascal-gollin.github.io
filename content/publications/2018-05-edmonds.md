@@ -7,7 +7,7 @@ authors:
   - Karl Heuer
 date: 2018-05-08
 doi: 10.1016/j.ejc.2020.103182
-arXiv: 1805.02933
+arXiv: "1805.02933"
 MR: 4142158
 url: 
 publicationDate: 2021-02-01

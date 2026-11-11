@@ -7,7 +7,7 @@ authors:
   - J. Pascal Gollin
   - Karl Heuer
 date: 2018-11-15
-doi: 0.1016/j.jctb.2022.08.004
+doi: 10.1016/j.jctb.2022.08.004
 arXiv: 1811.06411
 MR: 4476009
 url: 

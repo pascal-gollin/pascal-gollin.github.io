@@ -10,7 +10,7 @@ authors:
   - Sang-il Oum
 date: 2021-02-03
 doi: 10.1112/jlms.12858
-arXiv: 2102.01986
+arXiv: "2102.01986"
 MR: 4754439
 url: 
 publicationDate: 2024-01-13

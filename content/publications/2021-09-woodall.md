@@ -7,8 +7,8 @@ authors:
   - Konstantinos Stavropoulos
 date: 2021-09-08
 doi: 10.5070/C62359180
-arXiv: 2109.03518
-MR: 
+arXiv: "2109.03518"
+MR: 4498597
 url: 
 publicationDate: 2022-10-15
 journal: Combinatorial Theory

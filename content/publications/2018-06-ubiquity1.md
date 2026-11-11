@@ -12,7 +12,7 @@ authors:
   - Maximilian Teegen
 date: 2018-06-11
 doi: 10.1016/j.jctb.2022.05.011
-arXiv: 1806.04008
+arXiv: "1806.04008"
 MR: 4438889
 url: 
 publicationDate: 2022-11-01

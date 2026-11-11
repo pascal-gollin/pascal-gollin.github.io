@@ -6,7 +6,7 @@ authors:
   - Attila Joó
 date: 2022-11-23
 doi: 10.1016/j.laa.2022.12.002
-arXiv: 2211.12917
+arXiv: "2211.12917"
 MR: 4522474
 url: 
 publicationDate: 2023-03-01

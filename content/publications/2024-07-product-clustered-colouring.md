@@ -12,7 +12,7 @@ authors:
   - David R. Wood
 date: 2024-07-31
 doi: 10.37236/13247
-arXiv: 2407.21360
+arXiv: "2407.21360"
 MR: 4960381
 url: 
 publicationDate: 2025-07-18

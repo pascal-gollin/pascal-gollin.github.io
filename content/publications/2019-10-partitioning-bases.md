@@ -10,7 +10,7 @@ authors:
   - Max Pitz
 date: 2019-10-12
 doi: 10.1007/s00493-020-4422-4
-arXiv: 1910.05601
+arXiv: "1910.05601"
 MR: 4235313
 url: 
 publicationDate: 2021-02-01

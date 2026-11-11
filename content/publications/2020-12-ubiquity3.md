@@ -12,7 +12,7 @@ authors:
   - Maximilian Teegen
 date: 2020-12-24
 doi: 10.5070/C64264230
-arXiv: 2012.13070
+arXiv: "2012.13070"
 MR: 4807142
 url: 
 publicationDate: 2024-09-30

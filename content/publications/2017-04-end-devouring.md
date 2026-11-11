@@ -7,7 +7,7 @@ authors:
   - Karl Heuer
 date: 2017-04-21
 doi: 10.1016/j.disc.2018.04.012
-arXiv: 1704.06577
+arXiv: "1704.06577"
 MR: 3802167
 url: 
 publicationDate: 2019-07-01

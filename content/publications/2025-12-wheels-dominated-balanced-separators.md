@@ -8,7 +8,7 @@ authors:
   - Martin Milanič
 date: 2025-12-13
 doi: 
-arXiv: 2512.12329
+arXiv: "2512.12329"
 MR: 
 url: 
 publicationDate: 

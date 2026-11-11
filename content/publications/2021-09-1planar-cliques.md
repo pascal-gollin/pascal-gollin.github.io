@@ -9,7 +9,7 @@ authors:
   - Xin Zhang
 date: 2021-09-07
 doi: 10.1016/j.ejc.2022.103654
-arXiv: 2109.02906
+arXiv: "2109.02906"
 MR: 4522420
 url: 
 publicationDate: 2023-03-01

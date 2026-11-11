@@ -14,7 +14,7 @@ authors:
   - Liana Yepremyan
 date: 2024-10-25
 doi: 
-arXiv: 2410.19295
+arXiv: "2410.19295"
 MR: 
 url: 
 publicationDate: 

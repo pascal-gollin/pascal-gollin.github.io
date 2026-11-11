@@ -7,7 +7,7 @@ authors:
   - Laura Ogrin
 date: 2026-03-05
 doi: 
-arXiv: 2603.05100
+arXiv: "2603.05100"
 MR: 
 url: 
 publicationDate: 

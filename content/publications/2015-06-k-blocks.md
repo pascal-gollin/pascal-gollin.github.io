@@ -8,7 +8,7 @@ authors:
   - J. Pascal Gollin
 date: 2015-06-09
 doi: 10.1016/j.jctb.2016.05.001
-arXiv: 1506.02904
+arXiv: "1506.02904"
 MR: 3575193
 url: 
 publicationDate: 2017-01-01

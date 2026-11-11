@@ -13,7 +13,7 @@ authors:
   - Paul Wollan
 date: 2026-07-08
 doi: 
-arXiv: 2607.06869
+arXiv: "2607.06869"
 MR: 
 url: 
 publicationDate: 

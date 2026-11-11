@@ -8,7 +8,7 @@ authors:
   - Bruce Reed
 date: 2024-02-27
 doi: 10.37236/12834
-arXiv: 2402.17255
+arXiv: "2402.17255"
 MR: 5001001
 url: 
 publicationDate: 2025-12-12

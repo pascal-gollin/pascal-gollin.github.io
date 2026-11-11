@@ -9,7 +9,7 @@ authors:
   - Sang-il Oum
 date: 2020-03-31
 doi: 10.19086/aic.24227
-arXiv: 2003.13975
+arXiv: "2003.13975"
 MR: 4269799
 url: 
 publicationDate: 2021-05-24

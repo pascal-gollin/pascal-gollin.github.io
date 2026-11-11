@@ -11,7 +11,7 @@ authors:
   - Martin Milanič
 date: 2025-11-07
 doi: 
-arXiv: 2511.05674
+arXiv: "2511.05674"
 MR: 
 url: 
 publicationDate: 

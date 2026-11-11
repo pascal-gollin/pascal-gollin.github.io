@@ -8,7 +8,7 @@ authors:
   - O-joung Kwon
 date: 2024-07-08
 doi: 
-arXiv: 2407.05883
+arXiv: "2407.05883"
 MR: 
 url: 
 publicationDate: 

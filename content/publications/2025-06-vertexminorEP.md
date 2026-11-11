@@ -11,7 +11,7 @@ authors:
   - Sebastian Wiederrecht
 date: 2025-06-04
 doi: 
-arXiv: 2506.03973
+arXiv: "2506.03973"
 MR: 
 url: 
 publicationDate: 

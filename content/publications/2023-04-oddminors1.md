@@ -6,7 +6,7 @@ authors:
   - Sebastian Wiederrecht
 date: 2023-04-10
 doi: 
-arXiv: 2304.04504
+arXiv: "2304.04504"
 MR: 
 url: 
 publicationDate: 

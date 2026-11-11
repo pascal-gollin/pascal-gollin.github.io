@@ -6,7 +6,7 @@ authors:
   - Attila Joó
 date: 2025-04-07
 doi: 
-arXiv: 2504.05064
+arXiv: "2504.05064"
 MR: 
 url: 
 publicationDate: 

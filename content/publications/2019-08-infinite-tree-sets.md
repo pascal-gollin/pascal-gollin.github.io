@@ -7,7 +7,7 @@ authors:
   - Jakob Kneip
 date: 2019-08-27
 doi: 10.1007/s11083-020-09529-0
-arXiv: 1908.10327
+arXiv: "1908.10327"
 MR: 4239857
 url: 
 publicationDate: 2021-04-01

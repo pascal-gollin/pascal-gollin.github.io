@@ -8,7 +8,7 @@ authors:
   - Raphael Steiner
 date: 2024-06-28
 doi: 10.1016/j.jctb.2025.04.003
-arXiv: 2406.19855
+arXiv: "2406.19855"
 MR: 4894134
 url: 
 publicationDate: 2025-07-01
